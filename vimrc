@@ -1,7 +1,7 @@
 set nocompatible                    " full vim
 syntax enable                       " enable syntax highlighting
 set encoding=utf8                   " utf8 default encoding
-set number
+set number                          " display line numbers
 
 " load pathogen
 execute pathogen#infect()
@@ -83,6 +83,9 @@ endif
 set foldenable                   " enable folding
 set foldmethod=indent            " most files are evenly indented
 set foldlevel=99
+
+" signify git diff
+set updatetime=100
 
 " ADDITIONAL KEY MAPPINGS
 
